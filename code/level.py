@@ -17,8 +17,7 @@ class Level(object):
 
 	def setup(self):
 		# 将sprite加到group的方法是，在实例化时向Sprite类传入group
-		self.player = Player(pos=(0,0), group=self.all_sprites)
-
+		self.player = Player(pos=(100, 100), group=self.all_sprites)
 
 	def run(self, dt:float):
 		# 将显示面设置为黑色
