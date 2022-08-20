@@ -1,0 +1,3 @@
+[submodule "PyDew-Valley"]
+	path = original_repo
+	url = https://github.com/clear-code-projects/PyDew-Valley.git
